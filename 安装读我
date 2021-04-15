@@ -1,0 +1,14 @@
+pip install -r requirements.txt 有一些安装不上 
+需要手工安装一些
+  
+Using legacy 'setup.py install' for autopep8, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for coreschema, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for djangorestframework-csv, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gprof2dot, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for Twisted, since package 'wheel' is not installed.
+手工安装  , 上面的也要手工安装
+pip install daphne==3.0.1
+pip install drf_yasg
+pip install crypto
+pip install pycrypto
+pip install secrets
