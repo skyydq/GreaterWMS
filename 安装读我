@@ -12,3 +12,14 @@ pip install drf_yasg
 pip install crypto
 pip install pycrypto
 pip install secrets
+
+
+python manage.py makemigrations // 数据库生成- 将python类对象 生成脚本     如果有提示 2选1 的一般 是某字段 没有默认值，手工加上即可
+python manage.py migrate // 数据库迁移 就时导入到 数据库
+
+运行
+daphne -p 8008 greaterwms.asgi:application
+
+mvc模式不清楚 可网上看 和 学习 Django-rest-framework 
+
+前端用的 vue的  Quasar框架，界面大气 ,但缺少表单，主从表类的 模板界面
